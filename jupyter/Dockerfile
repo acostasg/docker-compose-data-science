@@ -23,7 +23,10 @@ RUN pip install -U geopandas \
                    geohash2 \
                    tables \
                    mixpanel \
-                   GeoAlchemy2
+                   GeoAlchemy2 \
+                   keras \
+                   tensorflow \
+                   nvidia-docker-compose
 
 VOLUME /notebooks
 WORKDIR /notebooks
