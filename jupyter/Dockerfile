@@ -26,7 +26,8 @@ RUN pip install -U geopandas \
                    GeoAlchemy2 \
                    keras \
                    tensorflow \
-                   nvidia-docker-compose
+                   nvidia-docker-compose \
+                   mlxtend
 
 VOLUME /notebooks
 WORKDIR /notebooks

@@ -11,6 +11,9 @@ services:
     volumes:
           - "./notebooks:/notebooks"
           - "./data:/data"
+    environment:
+      TF_DOCKER_BUILD_PYTHON_VERSION: PYTHON3
+      TF_DOCKER_BUILD_TYPE: CPU
 
   postgres:
     image: postgres
