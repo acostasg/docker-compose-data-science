@@ -29,5 +29,7 @@ RUN pip install -U geopandas \
                    nvidia-docker-compose \
                    mlxtend
 
+RUN pip install -U python-nvd3
+
 VOLUME /notebooks
 WORKDIR /notebooks
